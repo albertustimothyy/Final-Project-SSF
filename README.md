@@ -51,6 +51,10 @@ Program tersebut juga melakukan inisialisasi SPI, yang digunakan untuk mengirimk
 
 iv. Test results and performance evaluation
 
+Rangkaian dibuat menggunakan bantuan software proteus untuk mensimulasikan rangkaian yang direncanakan. Rangkaian terdiri atas 1 Arduino, Max7219, 1 Display, dan PIR sensor. PIR sensor digunakan untuk mendeteksi adanya keberadaan orang di dalam ruangan yang dimonitor. PIR sensor kemudian disambungkan ke Arduino yang bertindak sebagai master yang kemudian akan memproses sinyal yang diterima tersebut. Master kemudian menyalurkan sinyal ke Max7219. Max7219 akan kemudian menentukan untuk menyalakan atau mematikan aliran listrik tergantung sinyal yang dikirimkan oleh arduino master. Arduino slave juga disambungkan ke display untuk memberikan status mengenai ada atau tidaknya orang di dalam ruangan tersebut.
+
+Proyek ini berhasil dirangkai dengan benar menggunakan proteus namun tidak berhasil berjalan dengan benar. PIR sensor berhasil membaca adanya orang yang masuk ke ruangan namun Max7219 tidak memberikan output kepada display yang diberikan untuk menandakan adanya orang di dalam ruangan
+
 
 
 
