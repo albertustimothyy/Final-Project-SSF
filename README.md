@@ -55,6 +55,12 @@ Rangkaian dibuat menggunakan bantuan software proteus untuk mensimulasikan rangk
 
 Proyek ini berhasil dirangkai dengan benar menggunakan proteus namun tidak berhasil berjalan dengan benar. PIR sensor berhasil membaca adanya orang yang masuk ke ruangan namun Max7219 tidak memberikan output kepada display yang diberikan untuk menandakan adanya orang di dalam ruangan
 
+![image](https://github.com/albertustimothyy/Final-Project-SSF/assets/87458424/b16a6686-9fec-431f-9578-6c792a5345c8)
+
+v. conclusion
+
+Projek gagal berjalan dikarenakan terjadi kesalahan dalam pemograman kode assembly. Hal ini menyebabkan adanya kendala pada pengeluaran output yang dikeluarkan oleh slave ketika sinyal pir sensor sudah diterima melewati master yang menandakan adanya orang di dalam ruangan. 
+Kesalahan ini dapat terjadi dikarenakan adanya kesalahan dalam penulisan kode yang bertugas untuk mengirimkan sinyal dari master kepada slave, atau kode yang bertugas untuk menghasilkan output yang dihasilkan oleh slave berdasarkan isi sinyal.
 
 
 
